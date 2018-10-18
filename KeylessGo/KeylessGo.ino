@@ -22,7 +22,7 @@ void setup() {
   BLE.begin();
 
   // start scanning for peripheral
-  BLE.scanForAddress("FD8D61F734CC", true);
+  BLE.scanForAddress("Put MAC address of device here", true);
 }
 
 int igState = 0;
